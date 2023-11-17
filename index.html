@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Таймер обратного отсчета</title>
+</head>
+<body>
+
+    <label for="endDate">Введите дату и время окончания таймера (в формате ГГГГ-ММ-ДД ЧЧ:мм): </label>
+    <input type="text" id="endDate" placeholder="Пример: 2023-01-01 00:00">
+    
+    <button onclick="startCountdown()">Начать отсчет</button>
+    
+    <p id="countdown"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
